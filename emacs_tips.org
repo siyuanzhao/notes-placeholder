@@ -1,0 +1,47 @@
+#+TITLE: Emacs Tips & Tutorials
+
+* List of useful emacs packages:
+** https://github.com/emacs-tw/awesome-emacs
+
+* Packages in use:
+** Elpy: https://github.com/jorgenschaefer/elpy
+** windmove: https://www.emacswiki.org/emacs/WindMove
+** IDO: https://www.emacswiki.org/emacs/InteractivelyDoThings
+** easy-kill: https://github.com/leoliu/easy-kill
+** rainbow-delimiters: https://github.com/Fanael/rainbow-delimiters
+** EIN (Emacs Ipython Notebook): https://github.com/tkf/emacs-ipython-notebook
+** google-this: https://github.com/Malabarba/emacs-google-this
+** paradox: https://github.com/Malabarba/paradox
+** smex: https://github.com/nonsequitur/smex/
+** swiper: https://github.com/abo-abo/swiper
+** magit: https://github.com/magit/magit
+** cheatsheet: http://daemianmack.com/magit-cheatsheet.html
+** helm: 
+*** tutorial: http://tuhdo.github.io/helm-intro.html
+** golden-ratio: https://github.com/roman/golden-ratio.el
+** ace-window: https://github.com/abo-abo/ace-window
+** auto-complate: https://github.com/auto-complete/auto-complete
+** Emacs theme is use:
+tangotango: https://github.com/juba/color-theme-tangotango
+
+* Using IPython as Python shell
+https://www.emacswiki.org/emacs/PythonProgrammingInEmacs#toc32
+Invoke python interpreter: M-x run-python
+
+* Manage package list
+https://www.emacswiki.org/emacs/InstallingPackages
+
+* Line Number
+** use linum-mode to display line number:
+   M-x linum-mode.
+** Goto Line
+   Starting with Emacs 23.2, ‘M-g g’ is bound to goto-line.
+   Another good idea is to use (add-hook 'prog-mode-hook 'linum-mode) in your init.el to automatically enable linum-mode in all programming modes.
+
+* Emacs Tutorial worth your time
+https://github.com/pierre-lecocq/emacs4developers
+
+* All libraries needed to install emacs on Ubuntu
+http://askubuntu.com/a/506915
+
+* Dired
