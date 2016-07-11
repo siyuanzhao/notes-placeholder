@@ -1,0 +1,81 @@
+* July 11, 2016
+
+*** tf-idf
+- http://scikit-learn.org/stable/modules/feature_extraction.html#tfidf-term-weighting
+
+*** summary of 'Key-value Memory Networks'
+- https://gist.github.com/shagunsodhani/a5e0baa075b4a917c0a69edc575772a8
+
+*** An example of calculating cosine similarity using tf-idf
+- http://stackoverflow.com/a/18914884/5361448
+
+** ElasticSearch
+*** Official Documentation worth your time reading
+- https://www.elastic.co/guide/en/elasticsearch/guide/current/getting-started.html
+
+*** Inverted Index
+- https://www.elastic.co/guide/en/elasticsearch/guide/current/inverted-index.html
+
+*** difference between 'Term', 'Query String' and 'Match Phrase'
+- http://stackoverflow.com/questions/26001002/elastic-search-difference-between-term-match-phrase-and-query-string
+
+*** Analyzers
+- https://www.elastic.co/guide/en/elasticsearch/guide/current/analysis-intro.html
+- When we index a document, its full-text fields are analyzed
+ into terms that are used to create the inverted index.
+
+*** Mapping
+- Match value of each field in document to certain data type
+
+*** Document
+- A /key/ is the name of a field or property, and a /value/ can be a string, a number ....
+- A document also has /metadata/ -- information about the document.
+- Documents are /indexed/ -- stored and made searchable -- by using the index API.
+
+*** Sorting and Relevance
+- By default, results are returned sorted by /relevance/ -- with the most relevant docs first.
+
+*** Doc Values Intro
+- When searching, we need to be able to map a term to a list of documents.
+- When sorting, we need to map a document to its terms. We need to 'uninvert' the inverted index.
+- Doc vaules are created at index-time: when a field is indexed, ElasticSearch adds the tokens to the 
+inverted index for search. But it also extracts the terms and adds them to the doc values.
+
+** Trec-CDS
+
+*** Workflow I know so far
+1. Use ICONEngine to parse input to get concepts
+2. Use ElasticSearch on wiki pages (leading paragraphs) with concepts to select possible wiki pages
+3. Use ElasticSearch on Pubmed (abstract) with wiki titles to select possible papers.
+
+*** TODO 
+- Understand how ICON extract concepts from input
+
+*** Possible places to improve
+- Some concepts are meaningless
+  - topic keywords (come from ICON or regex?)
+- Use simple elastic query
+
+*** Comments on the code
+- Run pipeline from ICON
+
+- TopicAnalyser.topicCreator ::
+  - TopicAnalyser.topicKeyConceptsCreator1 :: 
+    - use ElasticSearch to get wiki pages from key concepts
+    - return KeyConcept - a mapping from key concept to a list of diagnoses (aka wiki pages)
+  - TopicANalyser.topicDiagnosesCreator1 ::
+    - concept_score comes from ICON
+    - calculate diagnosis score based on concept_score
+    - filter diagnosis based on demographic info (WikiSearcher.filterByDemographic)
+    - there is a mapping from disorder to gender
+  - generate keywords for treatment
+  - generate keywords for tes
+
+*** UIMA
+- An /Analysis Engine/ is a program that analyzes artifacts (e.g. documents) and infers information
+from them.
+- An annotator is a component that contains analysis logic.
+- Annotators produce their analysis results in the form of typed /Feature Structures/, which has
+simple data structures that have a type and a set of (attribute, value) pairs.
+- All feature structures, including annotations, are represented in the UIMA
+ /Common Analysis Structure (CAS)/
