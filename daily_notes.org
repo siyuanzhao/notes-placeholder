@@ -79,3 +79,50 @@ from them.
 simple data structures that have a type and a set of (attribute, value) pairs.
 - All feature structures, including annotations, are represented in the UIMA
  /Common Analysis Structure (CAS)/
+
+*** Key-Value Memory Networks
+**** TODO Select certain sections from wiki pages
+**** DONE Limit number of sentences from medical notes
+**** TODO Store wiki pages on sentence level 
+**** TODO use tf-idf to extract key words
+
+* July 12, 2016
+** Key Value Memory Network
+*** DONE Fight against numpy array error
+- a list of list issue
+
+#+BEGIN_SRC python
+import numpy as np
+# You want to feed (2,2) to tensorflow
+# [1,2,3] [1,2] don't have the number of element
+l = [[[1,2,3]], [[1,2]]]
+# we don't get error from numpy
+a = np.array(l)
+a.shape
+
+#+END_SRC 
+*** TODO How to read wiki content from json (pad each sentence to the same length / select certain sections)
+*** Only select certain sections from wiki pages
+*** TODO embed links in knowledge graph to connections between keys and values
+*** use xavier initializer in tensorflow
+
+#+BEGIN_SRC python
+W = tf.get_variable("W", shape=[d1, d2],
+           initializer=tf.contrib.layers.xavier_initializer())
+#+END_SRC
+
+** Git tips
+*** git pull from master into the development branch
+- http://stackoverflow.com/a/20103414/5361448
+*** the difference between 'git pull' and 'git fetch'
+- http://stackoverflow.com/a/292359/5361448
+
+
+** Run docker behind proxy
+After install docker, start it with following command
+
+#+BEGIN_SRC example
+sudo HTTP_PROXY=http://<PROXY_DETAILS>/ docker -d &
+#+END_SRC
+
+This works on CentOS 6.8.
