@@ -25,6 +25,7 @@
  into terms that are used to create the inverted index.
 
 *** Mapping
+
 - Match value of each field in document to certain data type
 
 *** Document
@@ -53,6 +54,7 @@ inverted index for search. But it also extracts the terms and adds them to the d
 
 *** Possible places to improve
 - Some concepts are meaningless
+
   - topic keywords (come from ICON or regex?)
 - Use simple elastic query
 
@@ -126,3 +128,33 @@ sudo HTTP_PROXY=http://<PROXY_DETAILS>/ docker -d &
 #+END_SRC
 
 This works on CentOS 6.8.
+
+* July 13, 2016
+
+** Successfully run tensorflow on CentOS 6
+*** Update glibc
+*** Upldate gcc
+
+** Virtualenv in Python
+
+** Key Value Memory Networks
+*** remove gradient noise when training
+*** TODO use single gru
+* July 15, 2016
+
+*** Emacs plugin for Eclipse
+ - https://marketplace.eclipse.org/content/emacs
+
+*** nested search in ElasticSearch
+- https://www.elastic.co/guide/en/elasticsearch/guide/current/nested-query.html
+
+*** Helpful video to get started with ElasticSearch
+- https://youtu.be/60UsHHsKyN4
+
+*** A set of helpful videos to get started with Latex
+- https://www.youtube.com/playlist?list=PL1D4EAB31D3EBC449
+
+*** Combining Queries and Bool Query in ElasticSearch
+- https://www.elastic.co/guide/en/elasticsearch/guide/current/bool-query.html
+
+
