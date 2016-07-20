@@ -170,8 +170,36 @@ dense embeddings
 
 *** Protocol Buffer
 - https://developers.google.com/protocol-buffers/docs/pythontutorial
-
+  
 * July 19, 2016
 
 *** A good blog about git workflow
 - https://sandofsky.com/blog/git-workflow.html
+
+*** High-quality Latex tutorial
+- https://www.sharelatex.com/blog/latex-guides/beginners-tutorial.html
+
+*** Using Emacs Serise (Video Tutorial)
+- http://cestlaz.github.io/stories/emacs/
+
+*** Video tutorial on OrgMode
+- https://www.youtube.com/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE
+
+*** Git Data Transport Commands
+[[file:git.png]]
+
+*** git stash -- useful command to save your unstaged changes
+- https://git-scm.com/book/en/v1/Git-Tools-Stashing
+
+*** Sparsemax
+- simplex
+- $\rho(\mathdd{0}) = \mathdd{1}/K$
+- $\rho(\mathdd{z}) = \rho(\mathdd{z} + c\mathdd{1})$
+  - $\rho is invariant to adding a constant to each coordinate$
+- logistic loss
+
+*** bold math symbol in ''Latex
+
+#+BEGIN_SRC example
+ \mathbf{<characters>}
+#+END_SRC
