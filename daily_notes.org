@@ -158,3 +158,20 @@ This works on CentOS 6.8.
 - https://www.elastic.co/guide/en/elasticsearch/guide/current/bool-query.html
 
 
+* July 17, 2016
+*** Wide & Deep Learning
+- The idea behind this paper is to combine wide linear models 
+with cross-product feature transformations and deep neural networks with 
+dense embeddings
+
+*** ConfigProto for session in Tensorflow
+- inter_op_parallelism_threads
+- intra_op_parallelism_threads
+
+*** Protocol Buffer
+- https://developers.google.com/protocol-buffers/docs/pythontutorial
+
+* July 19, 2016
+
+*** A good blog about git workflow
+- https://sandofsky.com/blog/git-workflow.html
