@@ -203,3 +203,25 @@ dense embeddings
 #+BEGIN_SRC example
  \mathbf{<characters>}
 #+END_SRC
+* July 24, 2016
+
+*** use batch training to speed up training process
+- this reduces the variance in the parameter update and can lead to more stable convergence
+- this allows the computation to take advantage of highly optimized matrix operations that 
+should be used in a well vectorized computation of the cost and gradient
+- One important point regarding SGD is the order in which we present the data to the algorithm
+- If the data is given in some meaningful order, this can bias the gradient and lead to poor convergence. 
+Generally a good method to avoid this is to randomly shuffle the data prior to each epoch of training.
+
+*** chain rule of gradient leads to vanishing gradient issue
+－ Slides about gradient and chain rule
+-- https://math.dartmouth.edu/archive/m9f07/public_html/m9lect1119.pdf
+- easy-to-understand video tutorial on vanishing gradient
+-- https://youtu.be/SKMpmAOUa2Q
+
+*** Geek letters in ''LaTex
+- https://www.latex-tutorial.com/symbols/greek-alphabet/
+
+*** Whitening transformation
+- https://en.wikipedia.org/wiki/Whitening_transformation
+- http://cs231n.github.io/neural-networks-3/
