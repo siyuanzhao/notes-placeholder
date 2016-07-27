@@ -226,3 +226,39 @@ Generally a good method to avoid this is to randomly shuffle the data prior to e
 - https://en.wikipedia.org/wiki/Whitening_transformation
 - http://cs231n.github.io/neural-networks-3/
 - http://ufldl.stanford.edu/tutorial/supervised/OptimizationStochasticGradientDescent/
+* July 25, 2016
+*** High accuracy hyperparameters
+- python train.py --batch_size=50 --embedding_dim=300 --feature_size=300 --hops=4 --vocab_size=10000
+
+* July 27, 2016
+*** Dockerfile
+- https://docs.docker.com/engine/reference/builder/
+**** TODO learn how to use dockerfile
+*** Docker image
+- https://docs.docker.com/v1.8/userguide/dockerimages/
+
+*** Get index of the top n values of a list in python
+- http://stackoverflow.com/a/13070505/5361448
+- use lambda function and sorted()
+
+*** Tensorflow - How to restore a previously saved model 
+- http://stackoverflow.com/a/33762168/5361448
+**** TODO upload my sample code to restore a saved model
+
+*** Solarized
+- http://ethanschoonover.com/solarized
+- /Precision colors for machines and people/
+
+*** Terminal - command output redirect to file and terminal
+
+#+BEGIN_SRC example
+ /command/ |& tee /filename/
+#+END_SRC
+
+*** Python - extract file extension
+- http://stackoverflow.com/a/541394/5361448
+
+*** Java - An example of sending post request
+- https://gist.github.com/siyuanzhao/268116573b81cb8542db456a7c28eb37
+
+
