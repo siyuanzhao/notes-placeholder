@@ -1,3 +1,5 @@
+#+OPTIONS: toc:3
+#+OPTIONS: toc:nil
 * July 11, 2016
 
 *** tf-idf
