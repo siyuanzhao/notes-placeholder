@@ -264,3 +264,21 @@ Generally a good method to avoid this is to randomly shuffle the data prior to e
 - https://gist.github.com/siyuanzhao/268116573b81cb8542db456a7c28eb37
 
 
+* July 29, 2016
+
+*** Java - sort a Map<Key, Value> by values
+- http://stackoverflow.com/a/2581754/5361448
+
+*** Java - iterate through a HashMap
+- http://stackoverflow.com/a/1066603/5361448
+
+*** Tensorflow - how to uninstall it
+- http://askubuntu.com/a/764087
+
+*** set up proxy for apt-get
+- http://askubuntu.com/a/711906
+
+*** Pandas - shuffle data frame
+- http://stackoverflow.com/a/29576803/5361448
+
+
