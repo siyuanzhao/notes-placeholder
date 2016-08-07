@@ -3,3 +3,4 @@
 - hide top bar
 - pixel saver
 - windowNavigator
+- put windows
