@@ -38,5 +38,41 @@ sudo sh <path-to-file> --uninstall
 Reference: http://www.yourownlinux.com/2016/06/how-to-install-nvidia-367-27-stable-graphics-drivers-in-linux.html
 
 **** Install CUDA 7.5
+- https://developer.nvidia.com/cuda-downloads
+
+**** Emacs
+- Download Emacs 24.5 from https://www.gnu.org/software/emacs/download.html
+  
+- Install essential build tool and dependency.
+
+#+BEGIN_SRC example
+sudo apt-get install build-essential
+
+sudo apt-get build-dep emacs24
+#+END_SRC 
+
+- cd to Emacs source directory where you unpacked Emacs
+
+- Compile Emacs:
+
+#+BEGIN_SRC example
+./configure
+
+make
+
+sudo make install
+#+END_SRC 
+
+- To save store space, clean up binary files and object files.
+
+#+BEGIN_SRC example
+
+make clean
+
+#+END_SRC
+
+Reference:
+- http://ergoemacs.org/emacs/building_emacs_on_linux.html
+- /INSTALL/ file from Emacs
 
 
