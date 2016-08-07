@@ -1,0 +1,42 @@
+**** Installing Ubuntu Gnome 14.04
+- Format external disk before installing, otherwise, you would run into an error.
+
+*** Set up dev env
+
+**** NVIDIA driver
+- Download latest version of driver from [NVIDIA](http://www.nvidia.com/Download/index.aspx?lang=en-us)
+- Remove recently installed drivers
+
+#+BEGIN_SRC example
+sudo apt-get purge nvidia*
+#+END_SRC
+
+- Shut down X server.
+
+#+BEGIN_SRC example
+sudo apt-get purge nvidia*
+#+END_SRC
+
+- Make the installer file excutable.
+
+#+BEGIN_SRC example
+chmod +x <path-to-file>
+#+END_SRC
+
+- Run the executable install file
+
+#+BEGIN_SRC example
+sudo sh <path-to-file>
+#+END_SRC
+
+Note: Don't delete the installer file. You need it to uninstall driver later.
+
+#+BEGIN_SRC example
+sudo sh <path-to-file> --uninstall
+#+END_SRC
+
+Reference: http://www.yourownlinux.com/2016/06/how-to-install-nvidia-367-27-stable-graphics-drivers-in-linux.html
+
+**** Install CUDA 7.5
+
+
