@@ -4,7 +4,7 @@
 *** Set up dev env
 
 **** NVIDIA driver
-- Download latest version of driver from [NVIDIA](http://www.nvidia.com/Download/index.aspx?lang=en-us)
+- Download latest version of driver from [[http://www.nvidia.com/Download/index.aspx?lang=en-us][NVIDIA]]
 - Remove recently installed drivers
 
 #+BEGIN_SRC example
@@ -40,7 +40,7 @@ Reference: http://www.yourownlinux.com/2016/06/how-to-install-nvidia-367-27-stab
 **** Install CUDA 7.5
 - https://developer.nvidia.com/cuda-downloads
 
-**** Emacs
+**** Install Emacs
 - Download Emacs 24.5 from https://www.gnu.org/software/emacs/download.html
   
 - Install essential build tool and dependency.
@@ -75,4 +75,23 @@ Reference:
 - http://ergoemacs.org/emacs/building_emacs_on_linux.html
 - /INSTALL/ file from Emacs
 
+**** Install pip
 
+- Download latest version of [[https://pip.pypa.io/en/stable/installing/][get-pip.py]]
+- Run the following:
+
+#+BEGIN_SRC python
+python get-pip.py
+#+END_SRC
+
+
+**** Install CuDNN v4
+- Download cuDNN v4.
+- Uncompress archive file and copy files into toolkit directory
+
+#+BEGIN_SRC example
+tar xvzf <cudnn-file>
+sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
+sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+#+END_SRC
