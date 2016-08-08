@@ -1,5 +1,7 @@
+**** Installing Ubuntu Gnome 14.04
+- Format external disk before installing, otherwise, you would run into an error.
 
-*** Set up dev env for Tensorflow
+*** Set up dev env
 
 **** NVIDIA driver
 - Download latest version of driver from [[http://www.nvidia.com/Download/index.aspx?lang=en-us][NVIDIA]]
@@ -35,10 +37,43 @@ sudo sh <path-to-file> --uninstall
 
 Reference: http://www.yourownlinux.com/2016/06/how-to-install-nvidia-367-27-stable-graphics-drivers-in-linux.html
 
-
 **** Install CUDA 7.5
 - https://developer.nvidia.com/cuda-downloads
 
+**** Install Emacs
+- Download Emacs 24.5 from https://www.gnu.org/software/emacs/download.html
+  
+- Install essential build tool and dependency.
+
+#+BEGIN_SRC example
+sudo apt-get install build-essential
+
+sudo apt-get build-dep emacs24
+#+END_SRC 
+
+- cd to Emacs source directory where you unpacked Emacs
+
+- Compile Emacs:
+
+#+BEGIN_SRC example
+./configure
+
+make
+
+sudo make install
+#+END_SRC 
+
+- To save store space, clean up binary files and object files.
+
+#+BEGIN_SRC example
+
+make clean
+
+#+END_SRC
+
+Reference:
+- http://ergoemacs.org/emacs/building_emacs_on_linux.html
+- /INSTALL/ file from Emacs
 
 **** Install pip
 
@@ -77,7 +112,6 @@ source ~/.bashrc
 Reference:
 - https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html#optional-install-cuda-gpus-on-linux
 
-
 **** Install Tensorflow 0.10 with pip
 - Before intalling Tensorflow, you should check the latest avaiable version. I use 0.10 as an example.
 - Follow instructions from [[https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html#pip-installation][Tensorflow]]
@@ -89,3 +123,25 @@ sess = tf.InteractiveSession()
 #+END_SRC
 
 If you don't run into any error, it means Tensorflow is ready to go on your machine.
+
+**** Install Extensions for Gnome
+Install extensions below from [[https://extensions.gnome.org/][Gnome Extensions]]
+- Application menu
+- Hide top bar
+- windowNavigator
+- put windows
+- Maximus Two
+
+**** Install Python modules
+- pandas
+- jedi
+- flake8
+- scipy
+- matplotlib
+- ipython
+- jupyter (aka IPython Notebook)
+
+#+BEGIN_SRC example
+sudo pip install pandas scipy ipython jupyter jedi flake8
+sudo apt-get install python-matplotlib
+#+END_SRC
