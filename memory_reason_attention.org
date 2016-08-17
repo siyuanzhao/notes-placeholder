@@ -1,0 +1,18 @@
+I try to keep a list of papers on memory networks, attention reading and reasoning.
+
+*** Memory
+- [[http://arxiv.org/abs/1410.3916][Memory Network]]
+- [[http://arxiv.org/abs/1503.08895][End-To-End Memory Networks]]
+- [[http://arxiv.org/abs/1502.05698][Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks]]
+- [[http://arxiv.org/abs/1506.07285][Ask Me Anything: Dynamic Memory Networks for Natural Language Processing]]
+- [[https://arxiv.org/abs/1606.03126][Key-Value Memory Networks for Directly Reading Documents]]
+- [[https://arxiv.org/abs/1410.5401][Neural Turing Machines]]
+- [[http://arxiv.org/abs/1607.00036][Dynamic Neural Turing Machine with Soft and Hard Addressing Schemes]]
+- [[http://arxiv.org/abs/1606.02245][Iterative Alternating Neural Attention for Machine Reading]]
+
+
+*** Attention Reading
+- [[http://arxiv.org/abs/1506.03340][Teaching Machines to Read and Comprehend]]
+- [[https://arxiv.org/abs/1606.01549][Gated-Attention Readers for Text Comprehension]]
+- [[http://arxiv.org/abs/1606.02245][Iterative Alternating Neural Attention for Machine Reading]]
+- [[https://arxiv.org/abs/1607.04423][Attention-over-Attention Neural Networks for Reading Comprehension]]
