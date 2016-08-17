@@ -282,3 +282,9 @@ Generally a good method to avoid this is to randomly shuffle the data prior to e
 - http://stackoverflow.com/a/29576803/5361448
 
 
+
+* August 9, 2016
+
+** Short-term To-do
+*** TODO Train a model with deep reinforcement learning
+*** TODO Generative Adversial model
