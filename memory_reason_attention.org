@@ -1,4 +1,4 @@
-I try to keep a list of papers on memory networks, attention reading and reasoning.
+I keep a list of papers on memory networks, attention reading and reasoning.
 
 *** Memory
 - [[http://arxiv.org/abs/1410.3916][Memory Network]]
@@ -8,7 +8,7 @@ I try to keep a list of papers on memory networks, attention reading and reasoni
 - [[https://arxiv.org/abs/1606.03126][Key-Value Memory Networks for Directly Reading Documents]]
 - [[https://arxiv.org/abs/1410.5401][Neural Turing Machines]]
 - [[http://arxiv.org/abs/1607.00036][Dynamic Neural Turing Machine with Soft and Hard Addressing Schemes]]
-- [[http://arxiv.org/abs/1606.02245][Iterative Alternating Neural Attention for Machine Reading]]
+- [[http://arxiv.org/pdf/1505.00521.pdf][Reinforcement Learning Neural Turning Machines]]
 
 
 *** Attention Reading
