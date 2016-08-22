@@ -17,3 +17,8 @@ I keep a list of papers on memory networks, attention reading and reasoning.
 - [[https://arxiv.org/abs/1606.01549][Gated-Attention Readers for Text Comprehension]]
 - [[http://arxiv.org/abs/1606.02245][Iterative Alternating Neural Attention for Machine Reading]]
 - [[https://arxiv.org/abs/1607.04423][Attention-over-Attention Neural Networks for Reading Comprehension]]
+
+*** Two interesting papers from EMNLP
+- [[http://www.emnlp2016.net/accepted-papers.html][All accepted papers]]
+- [[https://arxiv.org/abs/1604.00727][Character-Level Question Answering with Attention]]
+- [[http://arxiv.org/abs/1608.05604][Modeling Human Reading with Neural Attention]]
