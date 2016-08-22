@@ -12,6 +12,7 @@ I keep a list of papers on memory networks, attention reading and reasoning.
 
 
 *** Attention Reading
+- [[https://arxiv.org/abs/1409.0473][Neural Machine Translation by Jointly Learning to Align and Translate]]
 - [[http://arxiv.org/abs/1506.03340][Teaching Machines to Read and Comprehend]]
 - [[https://arxiv.org/abs/1606.01549][Gated-Attention Readers for Text Comprehension]]
 - [[http://arxiv.org/abs/1606.02245][Iterative Alternating Neural Attention for Machine Reading]]
