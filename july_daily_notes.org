@@ -286,5 +286,5 @@ Generally a good method to avoid this is to randomly shuffle the data prior to e
 * August 9, 2016
 
 ** Short-term To-do
-*** TODO Train a model with deep reinforcement learning
-*** TODO Generative Adversial model
+- TODO Train a model with deep reinforcement learning
+- TODO Generative Adversial model
