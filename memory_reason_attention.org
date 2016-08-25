@@ -26,3 +26,7 @@ I keep a list of papers on memory networks, attention reading and reasoning.
 - [[http://www.emnlp2016.net/accepted-papers.html][All accepted papers]]
 - [[https://arxiv.org/abs/1604.00727][Character-Level Question Answering with Attention]]
 - [[http://arxiv.org/abs/1608.05604][Modeling Human Reading with Neural Attention]]
+
+*** interesting papers from NIPS 2016
+- [[https://nips.cc/Conferences/2016/AcceptedPapers][all accepted papers]]
+- [[http://arxiv.org/abs/1608.05745][RETAIN: Interpretable Predictive Model in Healthcare using Reverse Time Attention Mechanism]]
