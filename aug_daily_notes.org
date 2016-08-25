@@ -1,8 +1,18 @@
-* Aug 23, 2016
+
 *** random thoughts
+**** Aug 23, 2016
 - aaai has application subfield.
-*** collection of good answers from quora
+
+*** collection of good answers from quora on ml / dl
+**** Aug 23, 2016
 - [[https://www.quora.com/What-makes-natural-language-processing-difficult/answer/Dave-Orr?srid%3DJtI6][difficulty in nlp]]
 - [[https://www.quora.com/What-shortcomings-do-you-see-with-deep-learning/answer/Oren-Etzioni-1?srid%3DJtI6][shortcomings with deep learning]]
 - [[https://www.quora.com/What-are-the-limits-of-deep-learning-2/answer/Yann-LeCun?srid%3DJtI6][limits of deep learning]]
 - [[https://www.quora.com/How-does-word2vec-work/answer/Omer-Levy?srid%3DJtI6][how word2vec works]]
+
+**** Aug 24, 2016
+- [[https://www.quora.com/What-is-the-difference-between-Dropout-and-Batch-Normalization/answer/Ian-Goodfellow?srid%3DJtI6][differences between dropout and batch normalization]]
+
+*** Deep learning
+<2016-08-25 Thu>
+- [[http://videolectures.net/deeplearning2016_montreal/][video lectures from deep learning summer school 2016]] 
