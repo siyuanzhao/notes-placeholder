@@ -16,3 +16,4 @@
 *** Deep learning
 [2016-08-25 Thu]
 - [[http://videolectures.net/deeplearning2016_montreal/][video lectures from deep learning summer school 2016]] 
+- [[https://www.reddit.com/r/MachineLearning/comments/4xnuv2/what_is_the_general_belief_on_value_of_neural/d6h6xxi][value of neural turning machines]]
