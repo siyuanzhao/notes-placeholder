@@ -17,3 +17,11 @@
 [2016-08-25 Thu]
 - [[http://videolectures.net/deeplearning2016_montreal/][video lectures from deep learning summer school 2016]] 
 - [[https://www.reddit.com/r/MachineLearning/comments/4xnuv2/what_is_the_general_belief_on_value_of_neural/d6h6xxi][value of neural turning machines]]
+
+*** shell
+[2016-08-27 Sat]
+- two commands from shell: sed, awk
+- [[http://www.thegeekstuff.com/2010/01/awk-introduction-tutorial-7-awk-print-examples/][good introduction on awk]]
+
+*** papers
+- [[http://arxiv.org/abs/1307.2579v1][Tuned Models of Peer Assessment in MOOCs]]
