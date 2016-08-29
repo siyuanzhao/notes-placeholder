@@ -21,7 +21,8 @@ I keep a list of papers on memory networks, attention reading and reasoning.
 
 *** Reasoning
 - [[http://arxiv.org/abs/1508.05508][Towards Neural Network-based Reasoning]]
-
+- [[http://arxiv.org/pdf/1608.06349v1.pdf][Five Dimensions of Reasoning in the Wild]]
+  
 *** Two interesting papers from NLP
 - [[http://www.emnlp2016.net/accepted-papers.html][All accepted papers]]
 - [[https://arxiv.org/abs/1604.00727][Character-Level Question Answering with Attention]]
