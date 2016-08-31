@@ -1,0 +1,65 @@
+** You shouldn't use system python for OSX
+- Using system python for OSX is painful. Here is [[https://github.com/MacPython/wiki/wiki/Which-Python][an article]] which tells you the reason.
+
+*** Using [[http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref][Virtual Environments]] to set up python for OSX
+
+**** Install pip
+
+- Download latest version of [[https://pip.pypa.io/en/stable/installing/][get-pip.py]]
+- Run the following:
+
+#+BEGIN_SRC example
+python get-pip.py
+#+END_SRC
+
+**** Install virtualenv
+
+#+Begin_SRC example
+pip install virtualenv --user
+#+END_SRC
+
+**** Install virtualenvwrapper
+virtualenvwrapper provides a set of commands which makes working with virtual environments 
+much more pleasant. 
+It also places all your virtual environments in one place.
+
+[[http://virtualenvwrapper.readthedocs.io/en/latest/install.html][(full installation instructions)]]
+
+#+Begin_SRC example
+pip install virtualenvwrapper --user
+#+END_SRC
+
+**** Set up shell startup file
+Add three lines to your shell startup file (.bash_profile, .zshrc)
+
+#+Begin_SRC example
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+source <path-to-your-virtualenvwrapper.sh>
+#+END_SRC
+
+Note: If you cannot find your virtualenvwrapper.sh, use the following command to find it.
+#+Begin_SRC example
+find / -name virtualenvwrapper.sh
+#+END_SRC
+
+**** Create a virtual environment
+#+Begin_SRC example
+mkvirtualenv py27
+#+END_SRC
+
+**** Work on a virtual environment
+#+Begin_SRC example
+workon py27
+#+END_SRC
+
+If the virtualenv is activated, your shell should look at this.
+[[shell.png]]
+
+**** Install python package
+Once virtualenv is set up, you can simply use ~pip install <package-name>~ to install packages.
+
+**** references:
+- [[http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref]]
+- [[http://virtualenvwrapper.readthedocs.io/en/latest/install.html]]
+- [[http://stackoverflow.com/a/12648034]]
