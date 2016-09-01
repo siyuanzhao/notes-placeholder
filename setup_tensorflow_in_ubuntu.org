@@ -9,10 +9,17 @@
 sudo apt-get purge nvidia*
 #+END_SRC
 
-- Shut down X server.
+- Log in tty1
+-- Press /Ctrl + Alt + F1/
+-- Type in your username and hit /Enter/
+-- Type in your password and hit /Enter/
 
+- Shut down X server.
 #+BEGIN_SRC example
-sudo apt-get purge nvidia*
+# unity
+sudo service lightdm stop
+# gnome
+sudo service gdm stop
 #+END_SRC
 
 - Make the installer file excutable.
@@ -26,6 +33,15 @@ chmod +x <path-to-file>
 #+BEGIN_SRC example
 sudo sh <path-to-file>
 #+END_SRC
+
+- Start X server
+#+BEGIN_SRC example
+# unity
+sudo service lightdm start
+# gnome
+sudo service gdm start
+#+END_SRC
+You can use /Alt + Left/ to switch back to GUI.
 
 Note: Don't delete the installer file. You need it to uninstall driver later.
 
