@@ -10,9 +10,9 @@ sudo apt-get purge nvidia*
 #+END_SRC
 
 - Log in tty1
--- Press /Ctrl + Alt + F1/
--- Type in your username and hit /Enter/
--- Type in your password and hit /Enter/
+  - Press /Ctrl + Alt + F1/ 
+  - Type in your username and hit /Enter/
+  - Type in your password and hit /Enter/ 
 
 - Shut down X server.
 #+BEGIN_SRC example
