@@ -34,3 +34,5 @@ I keep a list of papers on memory networks, attention reading and reasoning.
 
 *** NLP
 - [[http://arxiv.org/abs/1604.06045][Dialog-based Language Learning]]
+
+- [[http://www.large-scale-sports-analytics.org/Large-Scale-Sports-Analytics/Submissions_files/paperID20.pdf][Learning Long-term Planning in Basketball Using Hierarchical Memory Networks]]

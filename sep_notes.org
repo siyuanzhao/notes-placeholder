@@ -1,0 +1,5 @@
+*** Thoughts
+**** Tips on reproducible research
+- use ipython notebook to record data pre-processing
+- keep code organized
+- publish your code so that your code doesn't die
