@@ -9,7 +9,7 @@ I keep a list of papers on memory networks, attention reading and reasoning.
 - [[https://arxiv.org/abs/1410.5401][Neural Turing Machines]]
 - [[http://arxiv.org/abs/1607.00036][Dynamic Neural Turing Machine with Soft and Hard Addressing Schemes]]
 - [[http://arxiv.org/pdf/1505.00521.pdf][Reinforcement Learning Neural Turning Machines]]
-
+- [[http://www.large-scale-sports-analytics.org/Large-Scale-Sports-Analytics/Submissions_files/paperID20.pdf][Learning Long-term Planning in Basketball Using Hierarchical Memory Networks]]  
 
 *** Attention Reading
 - [[https://arxiv.org/abs/1409.0473][Neural Machine Translation by Jointly Learning to Align and Translate]]
@@ -37,8 +37,9 @@ I keep a list of papers on memory networks, attention reading and reasoning.
 *** NLP
 - [[http://arxiv.org/abs/1604.06045][Dialog-based Language Learning]]
 
-- [[http://www.large-scale-sports-analytics.org/Large-Scale-Sports-Analytics/Submissions_files/paperID20.pdf][Learning Long-term Planning in Basketball Using Hierarchical Memory Networks]]
-
 *** Crowdsourcing
 - [[http://arxiv.org/abs/1502.05696v3][Approval Voting and Incentives in Crowdsourcing]]
 - [[https://arxiv.org/abs/1602.03481][Reliable Crowdsourcing under the Generalized Dawid-Skene Model]]
+
+
+- [[http://www.psy.vanderbilt.edu/students/fougnidl/Fougnie-chap1.pdf][The Relationship between Attention and Working Memory]]
