@@ -31,8 +31,14 @@ I keep a list of papers on memory networks, attention reading and reasoning.
 *** interesting papers from NIPS 2016
 - [[https://nips.cc/Conferences/2016/AcceptedPapers][all accepted papers]]
 - [[http://arxiv.org/abs/1608.05745][RETAIN: Interpretable Predictive Model in Healthcare using Reverse Time Attention Mechanism]]
+- [[https://arxiv.org/abs/1606.05374][Avoiding Imposters and Delinquents: Adversarial Crowdsourcing and Peer Prediction]]
+- [[http://arxiv.org/abs/1608.07328][Fundamental Limits of Budget-Fidelity Trade-off in Label Crowdsourcing]]
 
 *** NLP
 - [[http://arxiv.org/abs/1604.06045][Dialog-based Language Learning]]
 
 - [[http://www.large-scale-sports-analytics.org/Large-Scale-Sports-Analytics/Submissions_files/paperID20.pdf][Learning Long-term Planning in Basketball Using Hierarchical Memory Networks]]
+
+*** Crowdsourcing
+- [[http://arxiv.org/abs/1502.05696v3][Approval Voting and Incentives in Crowdsourcing]]
+- [[https://arxiv.org/abs/1602.03481][Reliable Crowdsourcing under the Generalized Dawid-Skene Model]]
