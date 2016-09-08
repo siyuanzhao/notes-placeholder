@@ -3,3 +3,6 @@
 - use ipython notebook to record data pre-processing
 - keep code organized
 - publish your code so that your code doesn't die
+
+**** [[http://karpathy.github.io/2016/09/07/phd/][A Survival Guide to a PhD]]
+Andrej Karpathy wrote an excellent survival guide to CS Ph.D.
