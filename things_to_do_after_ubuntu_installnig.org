@@ -11,10 +11,17 @@
 sudo apt-get purge nvidia*
 #+END_SRC
 
-- Shut down X server.
+- Log in tty1
+  - Press /Ctrl + Alt + F1/ 
+  - Type in your username and hit /Enter/
+  - Type in your password and hit /Enter/ 
 
+- Shut down X server.
 #+BEGIN_SRC example
-sudo apt-get purge nvidia*
+# unity
+sudo service lightdm stop
+# gnome
+sudo service gdm stop
 #+END_SRC
 
 - Make the installer file excutable.
@@ -41,6 +48,7 @@ Reference: http://www.yourownlinux.com/2016/06/how-to-install-nvidia-367-27-stab
 - https://developer.nvidia.com/cuda-downloads
 
 **** Install Emacs
+
 - Download Emacs 24.5 from https://www.gnu.org/software/emacs/download.html
   
 - Install essential build tool and dependency.
@@ -74,6 +82,24 @@ make clean
 Reference:
 - http://ergoemacs.org/emacs/building_emacs_on_linux.html
 - /INSTALL/ file from Emacs
+
+**** Update python
+- Download latest version of python
+- Install necessary packages and libraries
+
+#+BEGIN_SRC example
+sudo apt-get install build-essential
+sudo apt-get build-dep python2.7
+#+END_SRC
+
+- Build python from source
+#+BEGIN_SRC example
+./configure
+make
+su root
+make install
+#+END_SRC
+
 
 **** Install pip
 
