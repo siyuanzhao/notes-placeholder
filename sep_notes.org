@@ -6,3 +6,6 @@
 
 **** [[http://karpathy.github.io/2016/09/07/phd/][A Survival Guide to a PhD]]
 Andrej Karpathy wrote an excellent survival guide to CS Ph.D.
+
+**** vowpal wabbit
+- [[http://www.zinkov.com/posts/2013-08-13-vowpal-tutorial/][an excellent tutorial on vowpal wabbit]]
