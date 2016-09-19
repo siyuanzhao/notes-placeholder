@@ -118,8 +118,8 @@ python get-pip.py
 #+END_SRC
 
 
-**** Install CuDNN v4
-- Download cuDNN v4.
+**** Install CuDNN v5
+- Download cuDNN v5.
 - Uncompress archive file and copy files into toolkit directory
 
 #+BEGIN_SRC example
@@ -146,6 +146,7 @@ Reference:
 - https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html#optional-install-cuda-gpus-on-linux
 
 **** Install Tensorflow 0.10 with pip
+
 - Before intalling Tensorflow, you should check the latest avaiable version. I use 0.10 as an example.
 - Follow instructions from [[https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html#pip-installation][Tensorflow]]
 - Test Tensorflow Installation
@@ -156,6 +157,21 @@ sess = tf.InteractiveSession()
 #+END_SRC
 
 If you don't run into any error, it means Tensorflow is ready to go on your machine.
+
+**** Install Theano
+- example of .theanorc
+#+BEGIN_SRC example
+[global]
+device = gpu
+floatX = float32
+root = /usr/local/cuda
+
+[blas]
+ldflags = -L/usr/local/lib -lopenblas
+
+[nvcc]
+flags=-arch=sm_50 # for cuda 7.5; remove this line if using cuda 8.0
+#+END_SRC
 
 **** Install Extensions for Gnome
 Install extensions below from [[https://extensions.gnome.org/][Gnome Extensions]]
