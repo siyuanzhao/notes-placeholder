@@ -4,6 +4,9 @@
 - keep code organized
 - publish your code so that your code doesn't die
 
+**** Experiment dataset
+- feature interactions to decide which contributes more.
+
 **** [[http://karpathy.github.io/2016/09/07/phd/][A Survival Guide to a PhD]]
 Andrej Karpathy wrote an excellent survival guide to CS Ph.D.
 
@@ -11,3 +14,7 @@ Andrej Karpathy wrote an excellent survival guide to CS Ph.D.
 - [[http://www.zinkov.com/posts/2013-08-13-vowpal-tutorial/][an excellent tutorial on vowpal wabbit]]
 - [[http://stackoverflow.com/a/24832382][logstic regression]]
 - [[http://stackoverflow.com/a/26789336]]
+
+**** Ubuntu
+- [[http://askubuntu.com/a/175742][Remount a filesystem as read/write]]
+- [[http://askubuntu.com/a/16049][always show grub menu when boot]]
