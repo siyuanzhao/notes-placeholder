@@ -84,6 +84,7 @@ Reference:
 - /INSTALL/ file from Emacs
 
 **** Update python
+*Don't* suggest you to update python from source
 - Download latest version of python
 - Install necessary packages and libraries
 
@@ -94,12 +95,18 @@ sudo apt-get build-dep python2.7
 
 - Build python from source
 #+BEGIN_SRC example
-./configure
+./configure --enable-shared # flags for theano
 make
 su root
 make install
 #+END_SRC
 
+*Note: Alternative ppa*
+#+BEGIN_SRC example
+sudo add-apt-repository ppa:fkrull/deadsnakes-python2.7
+sudo apt-get update
+sudo apt-get install python2.7
+#+END_SRC
 
 **** Install pip
 
