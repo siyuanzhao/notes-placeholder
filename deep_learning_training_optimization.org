@@ -1,0 +1,5 @@
+*** Traning Deep Learning Model
+- [[http://arxiv.org/abs/1511.06807][Adding Gradient Noise Improves Learning for Very Deep Networks]]
+- [[https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf][Dropout]]
+- [[https://papers.nips.cc/paper/5032-adaptive-dropout-for-training-deep-neural-networks.pdf][Adaptive dropout for training deep neural networks]]
+- [[http://www.jmlr.org/proceedings/papers/v28/pascanu13.pdf][On the difficulty of training recurrent neural networks]] (gradient norm clipping)
