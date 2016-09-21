@@ -17,6 +17,7 @@ I keep a list of papers on memory networks, attention reading and reasoning.
 - [[https://arxiv.org/abs/1606.01549][Gated-Attention Readers for Text Comprehension]]
 - [[http://arxiv.org/abs/1606.02245][Iterative Alternating Neural Attention for Machine Reading]]
 - [[https://arxiv.org/abs/1607.04423][Attention-over-Attention Neural Networks for Reading Comprehension]]
+- [[https://arxiv.org/abs/1511.02301][The Goldilocks Principle: Reading Children's Books with Explicit Memory Representations]]
 
 
 *** Reasoning
