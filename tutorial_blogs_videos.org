@@ -1,0 +1,33 @@
+*** RNN
+
+- [[http://www.wildml.com/2015/10/recurrent-neural-network-tutorial-part-4-implementing-a-grulstm-rnn-with-python-and-theano/][RECURRENT NEURAL NETWORK TUTORIAL, PART 4 – IMPLEMENTING A GRU/LSTM RNN WITH PYTHON AND THEANO]]
+Note: Intuition behind GRU and LSTM.
+
+- [[http://colah.github.io/posts/2015-08-Understanding-LSTMs/][Understanding LSTM Networks]]
+Note: a must-read tutorial by Chris Colah
+
+- [[http://distill.pub/2016/augmented-rnns/][Attention and Augmented Recurrent Neural Networks]]
+Note: Fancy visualization
+
+*** Word vectors
+- [[http://www.cs.toronto.edu/~bonner/courses/2014s/csc321/lectures/lec5.pdf][Distributed Representations]]
+Note: slides from CSC321 by Geoffrey Hinton
+
+*** Optimization
+
+- [[http://cs231n.github.io/neural-networks-3/#update][Parameter updates]]
+Note: a good overview of variants on SGD (Momentum, AdaGrad, rmsprop).
+
+- [[http://aria42.com/blog/2014/12/understanding-lbfgs][Numerical Optimization: Understanding L-BFGS]]
+
+- [[http://cs229.stanford.edu/section/cs229-cvxopt.pdf][Convex Optimization Overview]] (Part I)
+- [[http://cs229.stanford.edu/section/cs229-cvxopt2.pdf][Convex Optimization Overview]] (Part II)
+
+- [[https://rorasa.wordpress.com/2012/05/13/l0-norm-l1-norm-l2-norm-l-infinity-norm/][l0-Norm, l1-Norm, l2-Norm, … , l-infinity Norm]]
+
+*** Machine Learning
+- [[http://videolectures.net/deeplearning2016_precup_machine_learning/][Introduction to Machine Learning]]
+Note: an excellent video with slides from deep learning summer school 2016
+
+*** Linear Algebra
+- [[http://www.cs.cmu.edu/~zkolter/course/15-884/linalg-review.pdf][Linear Algebra Review and Reference]]
