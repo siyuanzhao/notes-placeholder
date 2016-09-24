@@ -10,6 +10,7 @@ I keep a list of papers on memory networks, attention reading and reasoning.
 - [[http://arxiv.org/abs/1607.00036][Dynamic Neural Turing Machine with Soft and Hard Addressing Schemes]]
 - [[http://arxiv.org/pdf/1505.00521.pdf][Reinforcement Learning Neural Turning Machines]]
 - [[http://www.large-scale-sports-analytics.org/Large-Scale-Sports-Analytics/Submissions_files/paperID20.pdf][Learning Long-term Planning in Basketball Using Hierarchical Memory Networks]]  
+- [[https://arxiv.org/abs/1603.01417][Dynamic Memory Networks for Visual and Textual Question Answering]]
 
 *** Attention Reading
 - [[https://arxiv.org/abs/1409.0473][Neural Machine Translation by Jointly Learning to Align and Translate]]
@@ -18,25 +19,24 @@ I keep a list of papers on memory networks, attention reading and reasoning.
 - [[http://arxiv.org/abs/1606.02245][Iterative Alternating Neural Attention for Machine Reading]]
 - [[https://arxiv.org/abs/1607.04423][Attention-over-Attention Neural Networks for Reading Comprehension]]
 - [[https://arxiv.org/abs/1511.02301][The Goldilocks Principle: Reading Children's Books with Explicit Memory Representations]]
-
+- [[https://www.aclweb.org/anthology/W/W16/W16-0103.pdf][Attention-Based Convolutional Neural Network for Machine Comprehension]]
 
 *** Reasoning
 - [[http://arxiv.org/abs/1508.05508][Towards Neural Network-based Reasoning]]
 - [[http://arxiv.org/pdf/1608.06349v1.pdf][Five Dimensions of Reasoning in the Wild]]
   
-*** Two interesting papers from NLP
+*** Two interesting papers from EMNLP
 - [[http://www.emnlp2016.net/accepted-papers.html][All accepted papers]]
 - [[https://arxiv.org/abs/1604.00727][Character-Level Question Answering with Attention]]
 - [[http://arxiv.org/abs/1608.05604][Modeling Human Reading with Neural Attention]]
-
+  
 *** interesting papers from NIPS 2016
 - [[https://nips.cc/Conferences/2016/AcceptedPapers][all accepted papers]]
 - [[http://arxiv.org/abs/1608.05745][RETAIN: Interpretable Predictive Model in Healthcare using Reverse Time Attention Mechanism]]
 - [[https://arxiv.org/abs/1606.05374][Avoiding Imposters and Delinquents: Adversarial Crowdsourcing and Peer Prediction]]
 - [[http://arxiv.org/abs/1608.07328][Fundamental Limits of Budget-Fidelity Trade-off in Label Crowdsourcing]]
-
-*** NLP
 - [[http://arxiv.org/abs/1604.06045][Dialog-based Language Learning]]
+
 
 *** Crowdsourcing
 - [[http://arxiv.org/abs/1502.05696v3][Approval Voting and Incentives in Crowdsourcing]]
