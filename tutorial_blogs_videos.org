@@ -9,6 +9,11 @@ Note: a must-read tutorial by Chris Colah
 - [[http://distill.pub/2016/augmented-rnns/][Attention and Augmented Recurrent Neural Networks]]
 Note: Fancy visualization
 
+*** CNN
+- [[https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/][An Intuitive Explanation of Convolutional Neural Networks]]
+
+- [[http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/][UNDERSTANDING CONVOLUTIONAL NEURAL NETWORKS FOR NLP]]
+
 *** Word vectors
 - [[http://www.cs.toronto.edu/~bonner/courses/2014s/csc321/lectures/lec5.pdf][Distributed Representations]]
 Note: slides from CSC321 by Geoffrey Hinton
