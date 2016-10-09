@@ -1,13 +1,13 @@
 *** RNN
 
 - [[http://www.wildml.com/2015/10/recurrent-neural-network-tutorial-part-4-implementing-a-grulstm-rnn-with-python-and-theano/][RECURRENT NEURAL NETWORK TUTORIAL, PART 4 – IMPLEMENTING A GRU/LSTM RNN WITH PYTHON AND THEANO]]
-Note: Intuition behind GRU and LSTM.
+<dd>Note: Intuition behind GRU and LSTM.</dd>
 
 - [[http://colah.github.io/posts/2015-08-Understanding-LSTMs/][Understanding LSTM Networks]]
-Note: a must-read tutorial by Chris Colah
+<dd>Note: a must-read tutorial by Chris Colah</dd>
 
 - [[http://distill.pub/2016/augmented-rnns/][Attention and Augmented Recurrent Neural Networks]]
-Note: Fancy visualization
+<dd>Note: Fancy visualization</dd>
 
 *** CNN
 - [[https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/][An Intuitive Explanation of Convolutional Neural Networks]]

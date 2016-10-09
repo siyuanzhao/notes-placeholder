@@ -44,3 +44,9 @@ I keep a list of papers on memory networks, attention reading and reasoning.
 
 
 - [[http://www.psy.vanderbilt.edu/students/fougnidl/Fougnie-chap1.pdf][The Relationship between Attention and Working Memory]]
+
+*** Random papers
+- [[https://arxiv.org/abs/1203.2990][Evolving Culture vs Local Minima]]
+
+*** Semi-supervised learning
+- [[https://arxiv.org/abs/1507.02672][Semi-Supervised Learning with Ladder Networks]]
