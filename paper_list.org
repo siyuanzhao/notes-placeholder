@@ -11,6 +11,7 @@ I keep a list of papers on memory networks, attention reading and reasoning.
 - [[http://arxiv.org/pdf/1505.00521.pdf][Reinforcement Learning Neural Turning Machines]]
 - [[http://www.large-scale-sports-analytics.org/Large-Scale-Sports-Analytics/Submissions_files/paperID20.pdf][Learning Long-term Planning in Basketball Using Hierarchical Memory Networks]]  
 - [[https://arxiv.org/abs/1603.01417][Dynamic Memory Networks for Visual and Textual Question Answering]]
+- [[http://www.nature.com/articles/nature20101.epdf?author_access_token%3DImTXBI8aWbYxYQ51Plys8NRgN0jAjWel9jnR3ZoTv0MggmpDmwljGswxVdeocYSurJ3hxupzWuRNeGvvXnoO8o4jTJcnAyhGuZzXJ1GEaD-Z7E6X_a9R-xqJ9TfJWBqz][Hybrid computing using a neural network with dynamic external memory]]
 
 *** Attention Reading
 - [[https://arxiv.org/abs/1409.0473][Neural Machine Translation by Jointly Learning to Align and Translate]]
@@ -24,6 +25,7 @@ I keep a list of papers on memory networks, attention reading and reasoning.
 *** Reasoning
 - [[http://arxiv.org/abs/1508.05508][Towards Neural Network-based Reasoning]]
 - [[http://arxiv.org/pdf/1608.06349v1.pdf][Five Dimensions of Reasoning in the Wild]]
+- [[https://arxiv.org/abs/1607.01426][Chains of Reasoning over Entities, Relations, and Text using Recurrent Neural Networks]]
   
 *** Two interesting papers from EMNLP
 - [[http://www.emnlp2016.net/accepted-papers.html][All accepted papers]]
